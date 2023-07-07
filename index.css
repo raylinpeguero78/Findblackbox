@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(2, 36, 36);
+}
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size: 16px;
+ 
+}
+
+*,
+*::after,
+*::before{
+box-sizing: inherit;
+
+}
+
+
+
+
+
+.caja1,
+.caja{
+
+
+    border: 1px solid rgb(7, 7, 7);
+    color: aqua;
+    background-color: rgb(20, 88, 144);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+   justify-content: center;
+    margin: 1px;
+    max-width: 70%;
+}
+.container{
+  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin:0 auto;
+    overflow-x:hidden ;
+    justify-content: center;
+
+}
+.robot{
+    width: 160px;
+    height: 160px;
+    background-size: cover;
+    position: relative;
+    max-width: 100%;
+    left: 150px; 
+    justify-content: center;
+
+
+}
+
+.score{
+    color: rgb(239, 242, 244);
+    font-size: 30px;
+    margin-left: 500px;
+    margin-top: 12px;
+
+
+
+}
+.caja2{
+  
+    
+    border: 1px solid rgb(7, 7, 7);
+    color: aqua;
+    background-color: rgb(144, 20, 20);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+   justify-content: center;
+    margin: 1px;
+    max-width: 70%;
+    margin-top: -140px;
+}
+
+.caja3{
+  
+    
+    border: 1px solid rgb(7, 7, 7);
+    color: aqua;
+    background-color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+   justify-content: center;
+    margin: 1px;
+    max-width: 70%;
+    margin-right: 15px;
+  
+}
+  
+a{
+    color: aqua;
+    border:2px solid rgb(10, 55, 55);
+    font-size: medium;
+    background-color: rgb(3, 53, 53);
+    text-decoration: none;
+    outline: none;
+}
+  
+  @media screen and (max-width: 480px) {
+    .caja {
+      width: 18%;
+      padding-bottom: 18%;
+    
+   
+ 
+    
+     
+    }
+    .caja1{
+        width: 18%;
+        padding-bottom: 18%;
+     
+        
+  
+    }
+    .score{
+        color: rgb(238, 238, 238);
+        font-size: 30px;
+        margin-left: 100px;
+      
+        text-align: center;
+        max-width: 100%;
+        
+
+    
+    
+    }
+}
+
+   
+
+
+
